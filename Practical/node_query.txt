@@ -1,0 +1,11 @@
+match (n) return (n)  ==Returns all nodes
+foreach (i in RANGE(0,4)|create (n)) == create multiple nodes
+match(n) where id(n)=3 0r id(n)=2 return (n) ==returns multiple nodes
+match (n) delete (n) ==To delete all nodes
+
+create(n:player) ==Create a node with a name
+
+match (n) where n.title='A big boy' set n.title='A big girl' return n == edit property
+create(n:IFC{fileType:".IFC", DataType:".IFC"})  ==Create multiple labels with properties
+
+create(n:player{name:"leo"}),(p:player{name:"cr7"}) ==create multiple nodes
