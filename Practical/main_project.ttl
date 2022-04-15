@@ -1,0 +1,1999 @@
+# baseURI: http://linkedbuildingdata.net/ifc/resources20220415_175714/
+# imports: http://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL
+
+@prefix ifc:  <http://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#> .
+@prefix inst:  <http://linkedbuildingdata.net/ifc/resources20220415_175714/> .
+@prefix list:  <https://w3id.org/list#> .
+@prefix express:  <https://w3id.org/express#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+inst:   rdf:type     owl:Ontology ;
+        owl:imports  ifc: .
+
+inst:IfcFace_2097184  rdf:type  ifc:IfcFace .
+
+inst:IfcFaceOuterBound_2097183
+        rdf:type  ifc:IfcFaceOuterBound .
+
+inst:IfcFace_2097184  ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097183 .
+
+inst:IfcPerson_1  rdf:type  ifc:IfcPerson .
+
+inst:IfcLabel_1357619
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "Burkart" .
+
+inst:IfcPerson_1  ifc:familyName_IfcPerson  inst:IfcLabel_1357619 .
+
+inst:IfcLabel_1357620
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "Katharina" .
+
+inst:IfcPerson_1  ifc:givenName_IfcPerson  inst:IfcLabel_1357620 .
+
+inst:IfcCartesianPoint_2097186
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357621
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097186
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357621 .
+
+inst:IfcLengthMeasure_List_1357622
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357623
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357624
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.4450836181641"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357621
+        list:hasContents  inst:IfcLengthMeasure_1357624 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357622 .
+
+inst:IfcLengthMeasure_1357625
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "408.2695102180403"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357622
+        list:hasContents  inst:IfcLengthMeasure_1357625 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357623 .
+
+inst:IfcLengthMeasure_1357626
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "407.4380073547363"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357623
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcOrganization_3
+        rdf:type  ifc:IfcOrganization .
+
+inst:IfcLabel_1357627
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "DONHAUSER MASSIVBAU GmbH" .
+
+inst:IfcOrganization_3
+        ifc:name_IfcOrganization  inst:IfcLabel_1357627 .
+
+inst:IfcCartesianPoint_2097188
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357628
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097188
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357628 .
+
+inst:IfcLengthMeasure_List_1357629
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357630
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357631
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "330.9490814208984"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357628
+        list:hasContents  inst:IfcLengthMeasure_1357631 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357629 .
+
+inst:IfcLengthMeasure_1357632
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "407.663513132469"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357629
+        list:hasContents  inst:IfcLengthMeasure_1357632 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357630 .
+
+inst:IfcLengthMeasure_List_1357630
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcCartesianPoint_2097190
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357633
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097190
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357633 .
+
+inst:IfcLengthMeasure_List_1357634
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357635
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357636
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.9150848388672"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357633
+        list:hasContents  inst:IfcLengthMeasure_1357636 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357634 .
+
+inst:IfcLengthMeasure_1357637
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "407.6635093177717"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357634
+        list:hasContents  inst:IfcLengthMeasure_1357637 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357635 .
+
+inst:IfcLengthMeasure_List_1357635
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcPersonAndOrganization_7
+        rdf:type  ifc:IfcPersonAndOrganization ;
+        ifc:thePerson_IfcPersonAndOrganization  inst:IfcPerson_1 ;
+        ifc:theOrganization_IfcPersonAndOrganization  inst:IfcOrganization_3 .
+
+inst:IfcPolyLoop_2097192
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357638
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097192
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357638 .
+
+inst:IfcCartesianPoint_List_1357639
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357640
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357638
+        list:hasContents  inst:IfcCartesianPoint_2097186 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357639 .
+
+inst:IfcCartesianPoint_List_1357639
+        list:hasContents  inst:IfcCartesianPoint_2097188 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357640 .
+
+inst:IfcCartesianPoint_List_1357640
+        list:hasContents  inst:IfcCartesianPoint_2097190 .
+
+inst:IfcApplication_10
+        rdf:type  ifc:IfcApplication ;
+        ifc:applicationDeveloper_IfcApplication  inst:IfcOrganization_3 .
+
+inst:IfcLabel_1357641
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "2019.1" .
+
+inst:IfcApplication_10
+        ifc:version_IfcApplication  inst:IfcLabel_1357641 .
+
+inst:IfcLabel_1357642
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "Allplan" .
+
+inst:IfcApplication_10
+        ifc:applicationFullName_IfcApplication  inst:IfcLabel_1357642 ;
+        ifc:applicationIdentifier_IfcApplication  inst:IfcLabel_1357642 .
+
+inst:IfcFaceOuterBound_2097194
+        rdf:type                ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound  inst:IfcPolyLoop_2097192 .
+
+inst:IfcBoolean_1357643
+        rdf:type            ifc:IfcBoolean ;
+        express:hasBoolean  false .
+
+inst:IfcFaceOuterBound_2097194
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcOwnerHistory_11
+        rdf:type                        ifc:IfcOwnerHistory ;
+        ifc:owningUser_IfcOwnerHistory  inst:IfcPersonAndOrganization_7 ;
+        ifc:owningApplication_IfcOwnerHistory  inst:IfcApplication_10 ;
+        ifc:changeAction_IfcOwnerHistory  ifc:NOTDEFINED .
+
+inst:IfcTimeStamp_1357644
+        rdf:type            ifc:IfcTimeStamp ;
+        express:hasInteger  1623763110 .
+
+inst:IfcOwnerHistory_11
+        ifc:creationDate_IfcOwnerHistory  inst:IfcTimeStamp_1357644 .
+
+inst:IfcFace_2097195  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097194 .
+
+inst:IfcSIUnit_12  rdf:type        ifc:IfcSIUnit ;
+        ifc:unitType_IfcNamedUnit  ifc:LENGTHUNIT ;
+        ifc:name_IfcSIUnit         ifc:METRE .
+
+inst:IfcSIUnit_13  rdf:type        ifc:IfcSIUnit ;
+        ifc:unitType_IfcNamedUnit  ifc:LENGTHUNIT ;
+        ifc:prefix_IfcSIUnit       ifc:MILLI ;
+        ifc:name_IfcSIUnit         ifc:METRE .
+
+inst:IfcSIUnit_14  rdf:type        ifc:IfcSIUnit ;
+        ifc:unitType_IfcNamedUnit  ifc:AREAUNIT ;
+        ifc:prefix_IfcSIUnit       ifc:MILLI ;
+        ifc:name_IfcSIUnit         ifc:SQUARE_METRE .
+
+inst:IfcSIUnit_15  rdf:type        ifc:IfcSIUnit ;
+        ifc:unitType_IfcNamedUnit  ifc:VOLUMEUNIT ;
+        ifc:prefix_IfcSIUnit       ifc:MILLI ;
+        ifc:name_IfcSIUnit         ifc:CUBIC_METRE .
+
+inst:IfcCartesianPoint_2097199
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357645
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097199
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357645 .
+
+inst:IfcLengthMeasure_List_1357646
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357647
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357648
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "340.4390869140625"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357645
+        list:hasContents  inst:IfcLengthMeasure_1357648 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357646 .
+
+inst:IfcLengthMeasure_1357649
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "408.5775107826155"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357646
+        list:hasContents  inst:IfcLengthMeasure_1357649 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357647 .
+
+inst:IfcLengthMeasure_List_1357647
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcSIUnit_16  rdf:type        ifc:IfcSIUnit ;
+        ifc:unitType_IfcNamedUnit  ifc:PLANEANGLEUNIT ;
+        ifc:name_IfcSIUnit         ifc:RADIAN .
+
+inst:IfcMeasureWithUnit_17
+        rdf:type  ifc:IfcMeasureWithUnit .
+
+inst:IfcPlaneAngleMeasure_1357650
+        rdf:type           ifc:IfcPlaneAngleMeasure ;
+        express:hasDouble  "0.0174532925199433"^^xsd:double .
+
+inst:IfcMeasureWithUnit_17
+        ifc:valueComponent_IfcMeasureWithUnit  inst:IfcPlaneAngleMeasure_1357650 ;
+        ifc:unitComponent_IfcMeasureWithUnit  inst:IfcSIUnit_16 .
+
+inst:IfcCartesianPoint_2097201
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357651
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097201
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357651 .
+
+inst:IfcLengthMeasure_List_1357652
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357653
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357651
+        list:hasContents  inst:IfcLengthMeasure_1357631 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357652 .
+
+inst:IfcLengthMeasure_1357654
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "408.5775145973128"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357652
+        list:hasContents  inst:IfcLengthMeasure_1357654 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357653 .
+
+inst:IfcLengthMeasure_List_1357653
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcDimensionalExponents_18
+        rdf:type  ifc:IfcDimensionalExponents .
+
+inst:INTEGER_1357655  rdf:type  express:INTEGER ;
+        express:hasInteger  0 .
+
+inst:IfcDimensionalExponents_18
+        ifc:lengthExponent_IfcDimensionalExponents  inst:INTEGER_1357655 ;
+        ifc:massExponent_IfcDimensionalExponents  inst:INTEGER_1357655 ;
+        ifc:timeExponent_IfcDimensionalExponents  inst:INTEGER_1357655 ;
+        ifc:electricCurrentExponent_IfcDimensionalExponents  inst:INTEGER_1357655 ;
+        ifc:thermodynamicTemperatureExponent_IfcDimensionalExponents  inst:INTEGER_1357655 ;
+        ifc:amountOfSubstanceExponent_IfcDimensionalExponents  inst:INTEGER_1357655 ;
+        ifc:luminousIntensityExponent_IfcDimensionalExponents  inst:INTEGER_1357655 .
+
+inst:IfcConversionBasedUnit_19
+        rdf:type                     ifc:IfcConversionBasedUnit ;
+        ifc:dimensions_IfcNamedUnit  inst:IfcDimensionalExponents_18 ;
+        ifc:unitType_IfcNamedUnit    ifc:PLANEANGLEUNIT .
+
+inst:IfcLabel_1357656
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "DEGREE" .
+
+inst:IfcConversionBasedUnit_19
+        ifc:name_IfcConversionBasedUnit  inst:IfcLabel_1357656 ;
+        ifc:conversionFactor_IfcConversionBasedUnit  inst:IfcMeasureWithUnit_17 .
+
+inst:IfcPolyLoop_2097203
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357657
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097203
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357657 .
+
+inst:IfcCartesianPoint_List_1357658
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357659
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357657
+        list:hasContents  inst:IfcCartesianPoint_2097188 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357658 .
+
+inst:IfcCartesianPoint_List_1357658
+        list:hasContents  inst:IfcCartesianPoint_2097199 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357659 .
+
+inst:IfcCartesianPoint_List_1357659
+        list:hasContents  inst:IfcCartesianPoint_2097201 .
+
+inst:IfcAxis2Placement3D_21
+        rdf:type  ifc:IfcAxis2Placement3D .
+
+inst:IfcCartesianPoint_24
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcAxis2Placement3D_21
+        ifc:location_IfcPlacement  inst:IfcCartesianPoint_24 .
+
+inst:IfcFaceOuterBound_2097205
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097203 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcFace_2097206  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097205 .
+
+inst:IfcLengthMeasure_List_1357660
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_24
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357660 .
+
+inst:IfcLengthMeasure_List_1357661
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357662
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357663
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "0."^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357660
+        list:hasContents  inst:IfcLengthMeasure_1357663 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357661 .
+
+inst:IfcLengthMeasure_List_1357661
+        list:hasContents  inst:IfcLengthMeasure_1357663 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357662 .
+
+inst:IfcLengthMeasure_List_1357662
+        list:hasContents  inst:IfcLengthMeasure_1357663 .
+
+inst:IfcPresentationStyleAssignment_2097208
+        rdf:type  ifc:IfcPresentationStyleAssignment .
+
+inst:IfcCurveStyle_2097210
+        rdf:type  ifc:IfcCurveStyle .
+
+inst:IfcPresentationStyleAssignment_2097208
+        ifc:styles_IfcPresentationStyleAssignment  inst:IfcCurveStyle_2097210 .
+
+inst:IfcSurfaceStyle_87657
+        rdf:type  ifc:IfcSurfaceStyle .
+
+inst:IfcPresentationStyleAssignment_2097208
+        ifc:styles_IfcPresentationStyleAssignment  inst:IfcSurfaceStyle_87657 .
+
+inst:IfcProject_26  rdf:type  ifc:IfcProject .
+
+inst:IfcGloballyUniqueId_1357664
+        rdf:type           ifc:IfcGloballyUniqueId ;
+        express:hasString  "2axsiRv5H7BRDJCpWzUFZ_" .
+
+inst:IfcProject_26  ifc:globalId_IfcRoot  inst:IfcGloballyUniqueId_1357664 ;
+        ifc:ownerHistory_IfcRoot  inst:IfcOwnerHistory_11 .
+
+inst:IfcLabel_1357665
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "2020-19_ELAB" .
+
+inst:IfcProject_26  ifc:name_IfcRoot  inst:IfcLabel_1357665 .
+
+inst:IfcGeometricRepresentationContext_196
+        rdf:type  ifc:IfcGeometricRepresentationContext .
+
+inst:IfcProject_26  ifc:representationContexts_IfcContext  inst:IfcGeometricRepresentationContext_196 .
+
+inst:IfcUnitAssignment_36
+        rdf:type  ifc:IfcUnitAssignment .
+
+inst:IfcProject_26  ifc:unitsInContext_IfcContext  inst:IfcUnitAssignment_36 .
+
+inst:IfcDraughtingPreDefinedCurveFont_233
+        rdf:type  ifc:IfcDraughtingPreDefinedCurveFont .
+
+inst:IfcCurveStyle_2097210
+        ifc:curveFont_IfcCurveStyle  inst:IfcDraughtingPreDefinedCurveFont_233 .
+
+inst:IfcPositiveLengthMeasure_1357666
+        rdf:type           ifc:IfcPositiveLengthMeasure ;
+        express:hasDouble  "25."^^xsd:double .
+
+inst:IfcCurveStyle_2097210
+        ifc:curveWidth_IfcCurveStyle  inst:IfcPositiveLengthMeasure_1357666 .
+
+inst:IfcDraughtingPreDefinedColour_737
+        rdf:type  ifc:IfcDraughtingPreDefinedColour .
+
+inst:IfcCurveStyle_2097210
+        ifc:curveColour_IfcCurveStyle  inst:IfcDraughtingPreDefinedColour_737 .
+
+inst:IfcStyledItem_2097211
+        rdf:type  ifc:IfcStyledItem .
+
+inst:IfcShellBasedSurfaceModel_2097149
+        rdf:type  ifc:IfcShellBasedSurfaceModel .
+
+inst:IfcStyledItem_2097211
+        ifc:item_IfcStyledItem    inst:IfcShellBasedSurfaceModel_2097149 ;
+        ifc:styles_IfcStyledItem  inst:IfcPresentationStyleAssignment_2097208 .
+
+inst:IfcShellBasedSurfaceModel_2097214
+        rdf:type  ifc:IfcShellBasedSurfaceModel .
+
+inst:IfcOpenShell_2097216
+        rdf:type  ifc:IfcOpenShell .
+
+inst:IfcShellBasedSurfaceModel_2097214
+        ifc:sbsmBoundary_IfcShellBasedSurfaceModel  inst:IfcOpenShell_2097216 .
+
+inst:IfcUnitAssignment_36
+        ifc:units_IfcUnitAssignment  inst:IfcSIUnit_13 ;
+        ifc:units_IfcUnitAssignment  inst:IfcSIUnit_14 ;
+        ifc:units_IfcUnitAssignment  inst:IfcSIUnit_15 ;
+        ifc:units_IfcUnitAssignment  inst:IfcConversionBasedUnit_19 .
+
+inst:IfcCartesianPoint_2097157
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357667
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097157
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357667 .
+
+inst:IfcLengthMeasure_List_1357668
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357669
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357670
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "340.8800811767578"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357667
+        list:hasContents  inst:IfcLengthMeasure_1357670 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357668 .
+
+inst:IfcLengthMeasure_1357671
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "408.5405101264876"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357668
+        list:hasContents  inst:IfcLengthMeasure_1357671 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357669 .
+
+inst:IfcLengthMeasure_List_1357669
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcPropertySingleValue_38
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357672
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Land" .
+
+inst:IfcPropertySingleValue_38
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357672 .
+
+inst:IfcText_1357673  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Land" .
+
+inst:IfcPropertySingleValue_38
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357673 .
+
+inst:IfcPolyLoop_2097159
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357674
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097159
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357674 .
+
+inst:IfcCartesianPoint_List_1357675
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357676
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357674
+        list:hasContents  inst:IfcCartesianPoint_2097199 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357675 .
+
+inst:IfcCartesianPoint_List_1357675
+        list:hasContents  inst:IfcCartesianPoint_2097188 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357676 .
+
+inst:IfcCartesianPoint_List_1357676
+        list:hasContents  inst:IfcCartesianPoint_2097157 .
+
+inst:IfcFaceOuterBound_2097161
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097159 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcFace_2097162  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097161 .
+
+inst:IfcPropertySingleValue_46
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357677
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bundesland" .
+
+inst:IfcPropertySingleValue_46
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357677 .
+
+inst:IfcText_1357678  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Bundesland" .
+
+inst:IfcPropertySingleValue_46
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357678 .
+
+inst:IfcPropertySingleValue_47
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357679
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Pr\\X2\\00FC\\X0\\fer" .
+
+inst:IfcPropertySingleValue_47
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357679 .
+
+inst:IfcText_1357680  rdf:type  ifc:IfcText ;
+        express:hasString  "Pr\\X2\\00FC\\X0\\fstatiker" .
+
+inst:IfcPropertySingleValue_47
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357680 .
+
+inst:IfcPropertySingleValue_48
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357681
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauherr" .
+
+inst:IfcPropertySingleValue_48
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357681 .
+
+inst:IfcText_1357682  rdf:type  ifc:IfcText ;
+        express:hasString  "Bauherrenname" .
+
+inst:IfcPropertySingleValue_48
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357682 .
+
+inst:IfcCartesianPoint_2097168
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357683
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097168
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357683 .
+
+inst:IfcLengthMeasure_List_1357684
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357685
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357686
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.1490783691406"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357683
+        list:hasContents  inst:IfcLengthMeasure_1357686 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357684 .
+
+inst:IfcLengthMeasure_1357687
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "408.4485110725325"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357684
+        list:hasContents  inst:IfcLengthMeasure_1357687 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357685 .
+
+inst:IfcLengthMeasure_List_1357685
+        list:hasContents  inst:IfcLengthMeasure_1357626 .
+
+inst:IfcPropertySingleValue_49
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357688
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bruttogeschossfl\\X2\\00E4\\X0\\che" .
+
+inst:IfcPropertySingleValue_49
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357688 .
+
+inst:IfcText_1357689  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Bruttogeschossfl\\X2\\00E4\\X0\\che" .
+
+inst:IfcPropertySingleValue_49
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357689 .
+
+inst:IfcPropertySingleValue_50
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357690
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Projektleiter" .
+
+inst:IfcPropertySingleValue_50
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357690 .
+
+inst:IfcText_1357691  rdf:type  ifc:IfcText ;
+        express:hasString  "Projektleitername" .
+
+inst:IfcPropertySingleValue_50
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357691 .
+
+inst:IfcPolyLoop_2097170
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357692
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097170
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357692 .
+
+inst:IfcCartesianPoint_List_1357693
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357694
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357692
+        list:hasContents  inst:IfcCartesianPoint_2097157 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357693 .
+
+inst:IfcCartesianPoint_List_1357693
+        list:hasContents  inst:IfcCartesianPoint_2097188 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357694 .
+
+inst:IfcCartesianPoint_List_1357694
+        list:hasContents  inst:IfcCartesianPoint_2097168 .
+
+inst:IfcPropertySingleValue_51
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357695
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Architekt" .
+
+inst:IfcPropertySingleValue_51
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357695 .
+
+inst:IfcText_1357696  rdf:type  ifc:IfcText ;
+        express:hasString  "Architektenname" .
+
+inst:IfcPropertySingleValue_51
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357696 .
+
+inst:IfcPropertySingleValue_52
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357697
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Statik" .
+
+inst:IfcPropertySingleValue_52
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357697 .
+
+inst:IfcText_1357698  rdf:type  ifc:IfcText ;
+        express:hasString  "Statiker" .
+
+inst:IfcPropertySingleValue_52
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357698 .
+
+inst:IfcFaceOuterBound_2097172
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097170 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcPropertySingleValue_53
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357699
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Elektro" .
+
+inst:IfcPropertySingleValue_53
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357699 .
+
+inst:IfcText_1357700  rdf:type  ifc:IfcText ;
+        express:hasString  "Elektroplaner" .
+
+inst:IfcPropertySingleValue_53
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357700 .
+
+inst:IfcFace_2097173  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097172 .
+
+inst:IfcPropertySingleValue_54
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357701
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Heizung" .
+
+inst:IfcPropertySingleValue_54
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357701 .
+
+inst:IfcText_1357702  rdf:type  ifc:IfcText ;
+        express:hasString  "Heizungsplaner" .
+
+inst:IfcPropertySingleValue_54
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357702 .
+
+inst:IfcPropertySingleValue_55
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357703
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Sanit\\X2\\00E4\\X0\\r" .
+
+inst:IfcPropertySingleValue_55
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357703 .
+
+inst:IfcText_1357704  rdf:type  ifc:IfcText ;
+        express:hasString  "Sanit\\X2\\00E4\\X0\\rplaner" .
+
+inst:IfcPropertySingleValue_55
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357704 .
+
+inst:IfcPropertySingleValue_56
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357705
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bebaubare Fl\\X2\\00E4\\X0\\che" .
+
+inst:IfcPropertySingleValue_56
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357705 .
+
+inst:IfcText_1357706  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - bebaubare Fl\\X2\\00E4\\X0\\che" .
+
+inst:IfcPropertySingleValue_56
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357706 .
+
+inst:IfcPropertySingleValue_57
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357707
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Maximale Geb\\X2\\00E4\\X0\\udeh\\X2\\00F6\\X0\\he" .
+
+inst:IfcPropertySingleValue_57
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357707 .
+
+inst:IfcText_1357708  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Maximale Geb\\X2\\00E4\\X0\\udeh\\X2\\00F6\\X0\\he" .
+
+inst:IfcPropertySingleValue_57
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357708 .
+
+inst:IfcPropertySingleValue_58
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357709
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bruttogrundst\\X2\\00FC\\X0\\cksfl\\X2\\00E4\\X0\\che" .
+
+inst:IfcPropertySingleValue_58
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357709 .
+
+inst:IfcText_1357710  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Bruttogrundst\\X2\\00FC\\X0\\cksfl\\X2\\00E4\\X0\\che" .
+
+inst:IfcPropertySingleValue_58
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357710 .
+
+inst:IfcPropertySingleValue_59
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357711
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Normalh\\X2\\00F6\\X0\\hennull" .
+
+inst:IfcPropertySingleValue_59
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357711 .
+
+inst:IfcText_1357712  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - H\\X2\\00F6\\X0\\he \\X2\\00FC\\X0\\ber NN" .
+
+inst:IfcPropertySingleValue_59
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357712 .
+
+inst:IfcPropertySingleValue_60
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357713
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Projektvorlage" .
+
+inst:IfcPropertySingleValue_60
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357713 .
+
+inst:IfcText_1357714  rdf:type  ifc:IfcText ;
+        express:hasString  "IBD2019" .
+
+inst:IfcPropertySingleValue_60
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357714 .
+
+inst:IfcPropertySingleValue_61
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357715
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauvorhaben" .
+
+inst:IfcPropertySingleValue_61
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357715 .
+
+inst:IfcText_1357716  rdf:type  ifc:IfcText ;
+        express:hasString  "Bauvorhabenname" .
+
+inst:IfcPropertySingleValue_61
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357716 .
+
+inst:IfcPolyLoop_2097181
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357717
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097181
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357717 .
+
+inst:IfcCartesianPoint_List_1357718
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357719
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357717
+        list:hasContents  inst:IfcCartesianPoint_2097168 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357718 .
+
+inst:IfcCartesianPoint_List_1357718
+        list:hasContents  inst:IfcCartesianPoint_2097188 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357719 .
+
+inst:IfcCartesianPoint_List_1357719
+        list:hasContents  inst:IfcCartesianPoint_2097186 .
+
+inst:IfcPropertySingleValue_62
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357720
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauherr Stra\\X2\\00DF\\X0\\e" .
+
+inst:IfcPropertySingleValue_62
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357720 .
+
+inst:IfcText_1357721  rdf:type  ifc:IfcText ;
+        express:hasString  "Bauherrenstrasse 222" .
+
+inst:IfcPropertySingleValue_62
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357721 .
+
+inst:IfcPropertySingleValue_63
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357722
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauherr Plz/Ort" .
+
+inst:IfcPropertySingleValue_63
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357722 .
+
+inst:IfcText_1357723  rdf:type  ifc:IfcText ;
+        express:hasString  "72108 Bauherrenort" .
+
+inst:IfcPropertySingleValue_63
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357723 .
+
+inst:IfcFaceOuterBound_2097183
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097181 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcPropertySingleValue_64
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357724
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Architekt Stra\\X2\\00DF\\X0\\e" .
+
+inst:IfcPropertySingleValue_64
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357724 .
+
+inst:IfcText_1357725  rdf:type  ifc:IfcText ;
+        express:hasString  "Architektenstrasse 111" .
+
+inst:IfcPropertySingleValue_64
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357725 .
+
+inst:IfcFaceOuterBound_2097248
+        rdf:type  ifc:IfcFaceOuterBound .
+
+inst:IfcPolyLoop_2097246
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcFaceOuterBound_2097248
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097246 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcPropertySingleValue_65
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357726
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Architekt Plz/Ort" .
+
+inst:IfcPropertySingleValue_65
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357726 .
+
+inst:IfcText_1357727  rdf:type  ifc:IfcText ;
+        express:hasString  "72108 Architektenort" .
+
+inst:IfcPropertySingleValue_65
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357727 .
+
+inst:IfcFace_2097249  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097248 .
+
+inst:IfcPropertySingleValue_66
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357728
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauvorhaben Stra\\X2\\00DF\\X0\\e" .
+
+inst:IfcPropertySingleValue_66
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357728 .
+
+inst:IfcText_1357729  rdf:type  ifc:IfcText ;
+        express:hasString  "Bauvorhabenstrasse 333" .
+
+inst:IfcPropertySingleValue_66
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357729 .
+
+inst:IfcPropertySingleValue_67
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357730
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauvorhaben Plz/Ort" .
+
+inst:IfcPropertySingleValue_67
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357730 .
+
+inst:IfcText_1357731  rdf:type  ifc:IfcText ;
+        express:hasString  "81829 Bauvorhabenort" .
+
+inst:IfcPropertySingleValue_67
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357731 .
+
+inst:IfcCartesianPoint_2097251
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357732
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097251
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357732 .
+
+inst:IfcLengthMeasure_List_1357733
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357734
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357735
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.6380920410156"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357732
+        list:hasContents  inst:IfcLengthMeasure_1357735 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357733 .
+
+inst:IfcLengthMeasure_1357736
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "410.7615107978743"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357733
+        list:hasContents  inst:IfcLengthMeasure_1357736 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357734 .
+
+inst:IfcLengthMeasure_1357737
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.0820064544678"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357734
+        list:hasContents  inst:IfcLengthMeasure_1357737 .
+
+inst:IfcPropertySingleValue_68
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357738
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Projektnummer" .
+
+inst:IfcPropertySingleValue_68
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357738 .
+
+inst:IfcInteger_1357739
+        rdf:type            ifc:IfcInteger ;
+        express:hasInteger  76146 .
+
+inst:IfcPropertySingleValue_68
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcInteger_1357739 .
+
+inst:IfcPropertySingleValue_69
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357740
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Architekt Telefonnummer" .
+
+inst:IfcPropertySingleValue_69
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357740 .
+
+inst:IfcText_1357741  rdf:type  ifc:IfcText ;
+        express:hasString  "07472-93791-0" .
+
+inst:IfcPropertySingleValue_69
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357741 .
+
+inst:IfcCartesianPoint_2097253
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357742
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097253
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357742 .
+
+inst:IfcLengthMeasure_List_1357743
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357744
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357742
+        list:hasContents  inst:IfcLengthMeasure_1357631 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357743 .
+
+inst:IfcLengthMeasure_1357745
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "410.4915141548079"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357743
+        list:hasContents  inst:IfcLengthMeasure_1357745 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357744 .
+
+inst:IfcLengthMeasure_1357746
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.0880069732666"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357744
+        list:hasContents  inst:IfcLengthMeasure_1357746 .
+
+inst:IfcPropertySingleValue_70
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357747
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Architekt Telefaxnummer" .
+
+inst:IfcPropertySingleValue_70
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357747 .
+
+inst:IfcText_1357748  rdf:type  ifc:IfcText ;
+        express:hasString  "07472/93791-29" .
+
+inst:IfcPropertySingleValue_70
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357748 .
+
+inst:IfcPropertySingleValue_71
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357749
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Projektbeschreibung" .
+
+inst:IfcPropertySingleValue_71
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357749 .
+
+inst:IfcText_1357750  rdf:type  ifc:IfcText ;
+        express:hasString  "Musterprojekt" .
+
+inst:IfcPropertySingleValue_71
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357750 .
+
+inst:IfcCartesianPoint_2097255
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357751
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097255
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357751 .
+
+inst:IfcLengthMeasure_List_1357752
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357753
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357754
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.7950897216797"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357751
+        list:hasContents  inst:IfcLengthMeasure_1357754 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357752 .
+
+inst:IfcLengthMeasure_1357755
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "410.5055102790755"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357752
+        list:hasContents  inst:IfcLengthMeasure_1357755 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357753 .
+
+inst:IfcLengthMeasure_1357756
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.0860061645508"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357753
+        list:hasContents  inst:IfcLengthMeasure_1357756 .
+
+inst:IfcPropertySingleValue_72
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357757
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Bauvorhaben Adresse" .
+
+inst:IfcPropertySingleValue_72
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357757 .
+
+inst:IfcText_1357758  rdf:type  ifc:IfcText ;
+        express:hasString  "Bauvorhabenadresse" .
+
+inst:IfcPropertySingleValue_72
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357758 .
+
+inst:IfcPropertySingleValue_73
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357759
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Geographische L\\X2\\00E4\\X0\\nge" .
+
+inst:IfcPropertySingleValue_73
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357759 .
+
+inst:IfcText_1357760  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Geografische L\\X2\\00E4\\X0\\nge" .
+
+inst:IfcPropertySingleValue_73
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357760 .
+
+inst:IfcPolyLoop_2097257
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357761
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097257
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357761 .
+
+inst:IfcCartesianPoint_List_1357762
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357763
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357761
+        list:hasContents  inst:IfcCartesianPoint_2097251 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357762 .
+
+inst:IfcCartesianPoint_List_1357762
+        list:hasContents  inst:IfcCartesianPoint_2097253 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357763 .
+
+inst:IfcCartesianPoint_List_1357763
+        list:hasContents  inst:IfcCartesianPoint_2097255 .
+
+inst:IfcPropertySingleValue_74
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357764
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Geographische Breite" .
+
+inst:IfcPropertySingleValue_74
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357764 .
+
+inst:IfcText_1357765  rdf:type  ifc:IfcText ;
+        express:hasString  "IFC - Geografische Breite" .
+
+inst:IfcPropertySingleValue_74
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357765 .
+
+inst:IfcPropertySingleValue_75
+        rdf:type  ifc:IfcPropertySingleValue .
+
+inst:IfcIdentifier_1357766
+        rdf:type           ifc:IfcIdentifier ;
+        express:hasString  "Architekt E-Mail" .
+
+inst:IfcPropertySingleValue_75
+        ifc:name_IfcProperty  inst:IfcIdentifier_1357766 .
+
+inst:IfcText_1357767  rdf:type  ifc:IfcText ;
+        express:hasString  "Architekt@email.de" .
+
+inst:IfcPropertySingleValue_75
+        ifc:nominalValue_IfcPropertySingleValue  inst:IfcText_1357767 .
+
+inst:IfcFaceOuterBound_2097259
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097257 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcPropertySet_76
+        rdf:type  ifc:IfcPropertySet .
+
+inst:IfcGloballyUniqueId_1357768
+        rdf:type           ifc:IfcGloballyUniqueId ;
+        express:hasString  "1z46awZl59tA69oR9Axrvq" .
+
+inst:IfcPropertySet_76
+        ifc:globalId_IfcRoot      inst:IfcGloballyUniqueId_1357768 ;
+        ifc:ownerHistory_IfcRoot  inst:IfcOwnerHistory_11 .
+
+inst:IfcLabel_1357769
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "AllplanAttributes" .
+
+inst:IfcPropertySet_76
+        ifc:name_IfcRoot  inst:IfcLabel_1357769 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_38 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_46 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_47 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_48 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_49 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_50 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_51 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_52 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_53 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_54 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_55 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_56 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_57 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_58 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_59 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_60 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_61 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_62 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_63 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_64 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_65 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_66 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_67 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_68 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_69 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_70 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_71 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_72 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_73 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_74 ;
+        ifc:hasProperties_IfcPropertySet  inst:IfcPropertySingleValue_75 .
+
+inst:IfcFace_2097260  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097259 .
+
+inst:IfcCartesianPoint_2097266
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357770
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097266
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357770 .
+
+inst:IfcLengthMeasure_List_1357771
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357772
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357770
+        list:hasContents  inst:IfcLengthMeasure_1357631 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357771 .
+
+inst:IfcLengthMeasure_1357773
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "410.0965136970442"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357771
+        list:hasContents  inst:IfcLengthMeasure_1357773 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357772 .
+
+inst:IfcLengthMeasure_1357774
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.220006942749"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357772
+        list:hasContents  inst:IfcLengthMeasure_1357774 .
+
+inst:IfcPolyLoop_2097268
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357775
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097268
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357775 .
+
+inst:IfcCartesianPoint_List_1357776
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357777
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357775
+        list:hasContents  inst:IfcCartesianPoint_2097255 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357776 .
+
+inst:IfcCartesianPoint_List_1357776
+        list:hasContents  inst:IfcCartesianPoint_2097253 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357777 .
+
+inst:IfcCartesianPoint_List_1357777
+        list:hasContents  inst:IfcCartesianPoint_2097266 .
+
+inst:IfcFaceOuterBound_2097270
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097268 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcFace_2097271  rdf:type  ifc:IfcFace ;
+        ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097270 .
+
+inst:IfcCartesianPoint_2097277
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357778
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097277
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357778 .
+
+inst:IfcLengthMeasure_List_1357779
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357780
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357781
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.8950805664063"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357778
+        list:hasContents  inst:IfcLengthMeasure_1357781 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357779 .
+
+inst:IfcLengthMeasure_1357782
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "410.2225093330305"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357779
+        list:hasContents  inst:IfcLengthMeasure_1357782 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357780 .
+
+inst:IfcLengthMeasure_1357783
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.1600074768066"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357780
+        list:hasContents  inst:IfcLengthMeasure_1357783 .
+
+inst:IfcPolyLoop_2097279
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357784
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097279
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357784 .
+
+inst:IfcCartesianPoint_List_1357785
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357786
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357784
+        list:hasContents  inst:IfcCartesianPoint_2097255 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357785 .
+
+inst:IfcCartesianPoint_List_1357785
+        list:hasContents  inst:IfcCartesianPoint_2097266 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357786 .
+
+inst:IfcCartesianPoint_List_1357786
+        list:hasContents  inst:IfcCartesianPoint_2097277 .
+
+inst:IfcFace_2097227  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097227 .
+
+inst:IfcFace_2097238  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097238 ;
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097249 ;
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097260 ;
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097271 .
+
+inst:IfcFace_2097282  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097282 .
+
+inst:IfcFace_2097293  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097293 .
+
+inst:IfcFace_2097304  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097304 .
+
+inst:IfcFace_2097315  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097315 .
+
+inst:IfcFace_2097326  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097326 .
+
+inst:IfcFace_2097337  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097337 .
+
+inst:IfcFace_2097348  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097348 .
+
+inst:IfcFace_2097359  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097359 .
+
+inst:IfcFace_2097370  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097370 .
+
+inst:IfcFace_2097381  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097381 .
+
+inst:IfcFace_2097392  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097392 .
+
+inst:IfcFace_2097403  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097403 .
+
+inst:IfcFace_2097414  rdf:type  ifc:IfcFace .
+
+inst:IfcOpenShell_2097216
+        ifc:cfsFaces_IfcConnectedFaceSet  inst:IfcFace_2097414 .
+
+inst:IfcCartesianPoint_2097218
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357787
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097218
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357787 .
+
+inst:IfcLengthMeasure_List_1357788
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357789
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357790
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.3110809326172"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357787
+        list:hasContents  inst:IfcLengthMeasure_1357790 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357788 .
+
+inst:IfcLengthMeasure_1357791
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "411.0415095771712"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357788
+        list:hasContents  inst:IfcLengthMeasure_1357791 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357789 .
+
+inst:IfcLengthMeasure_1357792
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.1460075378418"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357789
+        list:hasContents  inst:IfcLengthMeasure_1357792 .
+
+inst:IfcCartesianPoint_2097220
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357793
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097220
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357793 .
+
+inst:IfcLengthMeasure_List_1357794
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357795
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357796
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "340.5960845947266"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357793
+        list:hasContents  inst:IfcLengthMeasure_1357796 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357794 .
+
+inst:IfcLengthMeasure_1357797
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "411.2165107215803"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357794
+        list:hasContents  inst:IfcLengthMeasure_1357797 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357795 .
+
+inst:IfcLengthMeasure_1357798
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.228006362915"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357795
+        list:hasContents  inst:IfcLengthMeasure_1357798 .
+
+inst:IfcCartesianPoint_2097222
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357799
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097222
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357799 .
+
+inst:IfcLengthMeasure_List_1357800
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357801
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357799
+        list:hasContents  inst:IfcLengthMeasure_1357631 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357800 .
+
+inst:IfcLengthMeasure_1357802
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "410.9125136817854"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357800
+        list:hasContents  inst:IfcLengthMeasure_1357802 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357801 .
+
+inst:IfcLengthMeasure_1357803
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.1070060729981"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357801
+        list:hasContents  inst:IfcLengthMeasure_1357803 .
+
+inst:IfcPolyLoop_2097224
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357804
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097224
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357804 .
+
+inst:IfcCartesianPoint_List_1357805
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357806
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357804
+        list:hasContents  inst:IfcCartesianPoint_2097218 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357805 .
+
+inst:IfcCartesianPoint_List_1357805
+        list:hasContents  inst:IfcCartesianPoint_2097220 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357806 .
+
+inst:IfcCartesianPoint_List_1357806
+        list:hasContents  inst:IfcCartesianPoint_2097222 .
+
+inst:IfcFaceOuterBound_2097226
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097224 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcFace_2097227  ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097226 .
+
+inst:IfcRelDefinesByProperties_114
+        rdf:type  ifc:IfcRelDefinesByProperties .
+
+inst:IfcGloballyUniqueId_1357807
+        rdf:type           ifc:IfcGloballyUniqueId ;
+        express:hasString  "3SUmlg9Cn69Qzi_B3EWBci" .
+
+inst:IfcRelDefinesByProperties_114
+        ifc:globalId_IfcRoot      inst:IfcGloballyUniqueId_1357807 ;
+        ifc:ownerHistory_IfcRoot  inst:IfcOwnerHistory_11 ;
+        ifc:relatedObjects_IfcRelDefinesByProperties  inst:IfcProject_26 ;
+        ifc:relatingPropertyDefinition_IfcRelDefinesByProperties  inst:IfcPropertySet_76 .
+
+inst:IfcPolyLoop_2097235
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357808
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097235
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357808 .
+
+inst:IfcCartesianPoint_List_1357809
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357810
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357808
+        list:hasContents  inst:IfcCartesianPoint_2097218 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357809 .
+
+inst:IfcCartesianPoint_List_1357809
+        list:hasContents  inst:IfcCartesianPoint_2097222 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357810 .
+
+inst:IfcCartesianPoint_List_1357810
+        list:hasContents  inst:IfcCartesianPoint_2097251 .
+
+inst:IfcFaceOuterBound_2097237
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097235 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcSite_118  rdf:type  ifc:IfcSite .
+
+inst:IfcGloballyUniqueId_1357811
+        rdf:type           ifc:IfcGloballyUniqueId ;
+        express:hasString  "3VWB8UJ1L0muZIYrgXg$MK" .
+
+inst:IfcSite_118  ifc:globalId_IfcRoot  inst:IfcGloballyUniqueId_1357811 ;
+        ifc:ownerHistory_IfcRoot  inst:IfcOwnerHistory_11 .
+
+inst:IfcLabel_1357812
+        rdf:type           ifc:IfcLabel ;
+        express:hasString  "Liegenschaft 1-50" .
+
+inst:IfcSite_118  ifc:name_IfcRoot  inst:IfcLabel_1357812 .
+
+inst:IfcLocalPlacement_130
+        rdf:type  ifc:IfcLocalPlacement .
+
+inst:IfcSite_118  ifc:objectPlacement_IfcProduct  inst:IfcLocalPlacement_130 ;
+        ifc:compositionType_IfcSpatialStructureElement  ifc:ELEMENT .
+
+inst:IfcCompoundPlaneAngleMeasure_1357813
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:IfcSite_118  ifc:refLatitude_IfcSite  inst:IfcCompoundPlaneAngleMeasure_1357813 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357814
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:IfcCompoundPlaneAngleMeasure_1357815
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:IfcCompoundPlaneAngleMeasure_1357816
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:INTEGER_1357817  rdf:type  express:INTEGER ;
+        express:hasInteger  48 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357813
+        list:hasContents  inst:INTEGER_1357817 ;
+        list:hasNext      inst:IfcCompoundPlaneAngleMeasure_1357814 .
+
+inst:INTEGER_1357818  rdf:type  express:INTEGER ;
+        express:hasInteger  28 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357814
+        list:hasContents  inst:INTEGER_1357818 ;
+        list:hasNext      inst:IfcCompoundPlaneAngleMeasure_1357815 .
+
+inst:INTEGER_1357819  rdf:type  express:INTEGER ;
+        express:hasInteger  29 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357815
+        list:hasContents  inst:INTEGER_1357819 ;
+        list:hasNext      inst:IfcCompoundPlaneAngleMeasure_1357816 .
+
+inst:INTEGER_1357820  rdf:type  express:INTEGER ;
+        express:hasInteger  843444 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357816
+        list:hasContents  inst:INTEGER_1357820 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357821
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:IfcSite_118  ifc:refLongitude_IfcSite  inst:IfcCompoundPlaneAngleMeasure_1357821 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357822
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:IfcCompoundPlaneAngleMeasure_1357823
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:IfcCompoundPlaneAngleMeasure_1357824
+        rdf:type  ifc:IfcCompoundPlaneAngleMeasure .
+
+inst:INTEGER_1357825  rdf:type  express:INTEGER ;
+        express:hasInteger  8 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357821
+        list:hasContents  inst:INTEGER_1357825 ;
+        list:hasNext      inst:IfcCompoundPlaneAngleMeasure_1357822 .
+
+inst:INTEGER_1357826  rdf:type  express:INTEGER ;
+        express:hasInteger  56 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357822
+        list:hasContents  inst:INTEGER_1357826 ;
+        list:hasNext      inst:IfcCompoundPlaneAngleMeasure_1357823 .
+
+inst:INTEGER_1357827  rdf:type  express:INTEGER ;
+        express:hasInteger  5 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357823
+        list:hasContents  inst:INTEGER_1357827 ;
+        list:hasNext      inst:IfcCompoundPlaneAngleMeasure_1357824 .
+
+inst:INTEGER_1357828  rdf:type  express:INTEGER ;
+        express:hasInteger  857315 .
+
+inst:IfcCompoundPlaneAngleMeasure_1357824
+        list:hasContents  inst:INTEGER_1357828 .
+
+inst:IfcSite_118  ifc:refElevation_IfcSite  inst:IfcLengthMeasure_1357663 .
+
+inst:IfcFace_2097238  ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097237 .
+
+inst:IfcCartesianPoint_List_1357829
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097246
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357829 .
+
+inst:IfcCartesianPoint_List_1357830
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357831
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357829
+        list:hasContents  inst:IfcCartesianPoint_2097251 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357830 .
+
+inst:IfcCartesianPoint_List_1357830
+        list:hasContents  inst:IfcCartesianPoint_2097222 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357831 .
+
+inst:IfcCartesianPoint_List_1357831
+        list:hasContents  inst:IfcCartesianPoint_2097253 .
+
+inst:IfcAxis2Placement3D_127
+        rdf:type                   ifc:IfcAxis2Placement3D ;
+        ifc:location_IfcPlacement  inst:IfcCartesianPoint_24 .
+
+inst:IfcPolyLoop_2097312
+        rdf:type  ifc:IfcPolyLoop .
+
+inst:IfcCartesianPoint_List_1357832
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcPolyLoop_2097312
+        ifc:polygon_IfcPolyLoop  inst:IfcCartesianPoint_List_1357832 .
+
+inst:IfcCartesianPoint_List_1357833
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_List_1357834
+        rdf:type  ifc:IfcCartesianPoint_List .
+
+inst:IfcCartesianPoint_2097288
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcCartesianPoint_List_1357832
+        list:hasContents  inst:IfcCartesianPoint_2097288 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357833 .
+
+inst:IfcCartesianPoint_2097321
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcCartesianPoint_List_1357833
+        list:hasContents  inst:IfcCartesianPoint_2097321 ;
+        list:hasNext      inst:IfcCartesianPoint_List_1357834 .
+
+inst:IfcCartesianPoint_2097317
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcCartesianPoint_List_1357834
+        list:hasContents  inst:IfcCartesianPoint_2097317 .
+
+inst:IfcLocalPlacement_130
+        ifc:relativePlacement_IfcLocalPlacement  inst:IfcAxis2Placement3D_127 .
+
+inst:IfcFaceOuterBound_2097314
+        rdf:type                      ifc:IfcFaceOuterBound ;
+        ifc:bound_IfcFaceBound        inst:IfcPolyLoop_2097312 ;
+        ifc:orientation_IfcFaceBound  inst:IfcBoolean_1357643 .
+
+inst:IfcFace_2097315  ifc:bounds_IfcFace  inst:IfcFaceOuterBound_2097314 .
+
+inst:IfcLengthMeasure_List_1357835
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097317
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357835 .
+
+inst:IfcLengthMeasure_List_1357836
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_List_1357837
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcLengthMeasure_1357838
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "341.9520874023438"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357835
+        list:hasContents  inst:IfcLengthMeasure_1357838 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357836 .
+
+inst:IfcLengthMeasure_1357839
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "409.7745093788069"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357836
+        list:hasContents  inst:IfcLengthMeasure_1357839 ;
+        list:hasNext      inst:IfcLengthMeasure_List_1357837 .
+
+inst:IfcLengthMeasure_1357840
+        rdf:type           ifc:IfcLengthMeasure ;
+        express:hasDouble  "403.4860057830811"^^xsd:double .
+
+inst:IfcLengthMeasure_List_1357837
+        list:hasContents  inst:IfcLengthMeasure_1357840 .
+
+inst:IfcCartesianPoint_2097319
+        rdf:type  ifc:IfcCartesianPoint .
+
+inst:IfcLengthMeasure_List_1357841
+        rdf:type  ifc:IfcLengthMeasure_List .
+
+inst:IfcCartesianPoint_2097319
+        ifc:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_1357841 .
+
+inst:IfcLengthMeasure_List_1357842
+        rdf:type  ifc:IfcLengthMeasure_List .
